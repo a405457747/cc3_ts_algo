@@ -13,12 +13,7 @@ enum  Color {
 export class MainGo extends Component {
     static  age: number=0;
     start() {
-
-        let a =[1,2,3,4,5];
-        let b =[3,4,5];
-         a.splice(1,0,6666);
-         console.log(a);
-        console.log(a);
+        
 
     }
 
