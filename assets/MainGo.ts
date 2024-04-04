@@ -11,9 +11,16 @@ enum  Color {
 
 @ccclass('Main')
 export class MainGo extends Component {
+    age: number;
     start() {
+      this.age =3;
 
     }
+    pp():void {
+        console.log(this.age);
+    }
+
+
 
 
     kkk(kk) {
