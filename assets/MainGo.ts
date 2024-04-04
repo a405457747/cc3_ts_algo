@@ -11,19 +11,26 @@ enum  Color {
 
 @ccclass('Main')
 export class MainGo extends Component {
-    age: number;
+    age: number=0;
     start() {
-      this.age =3;
+
 
     }
-    pp():void {
-        console.log(this.age);
+
+    swap(arr:number[],a:number,b:number) {
+        let t =arr[a];
+        arr[a]=arr[b];
+        arr[b]=t;
+    }
+
+    pp() {
+       return 3;
     }
 
 
 
 
-    kkk(kk) {
+    kkk(kk:number) {
         console.log(kk);
     }
 
