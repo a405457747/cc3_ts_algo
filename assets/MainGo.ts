@@ -1,39 +1,58 @@
-import {_decorator, Component, Node, AudioSource} from 'cc';
+import { _decorator, Component, Node, AudioSource, Director } from 'cc';
+const { ccclass, property } = _decorator;
 
-const {ccclass, property} = _decorator;
-import {algo} from "db://assets/algo/algo";
-
-enum  Color {
-    Red=0,
+enum Color {
+    Red = 0,
     Blue,
     Yellow
 }
 
+interface IPerson {
+    name: string,
+    age: string,
+    say: () => string,
+}
+
+
+interface nameList {
+    [index: number]: string
+}
+
 @ccclass('Main')
 export class MainGo extends Component {
-    static  age: number=0;
+ static    age: number = 0;
+
+    aa = "ss";
+    bb = "s";
+
+    sy(a, b) {
+        return true;
+    }
+
+
+    get AA(){
+        return this.aa; 
+    }
+
+    set AA(val){
+        this.aa=val;
+    }
+
+    kkk({a=3,b=4,c=5}){
+        console.log(a,b,c);
+    }
+
+
     start() {
-        
+        this.kkk({b:5});
 
     }
 
-    addk(...data:number[]){
+    gkk(x, y) {
 
-        data.forEach((item,i)=>{
-            console.log(item,i);
-        })
-
+        return { x, y }
     }
 
-
-
-   static  kkk(kk:number) {
-        console.log(this);
-    }
-
-    update(deltaTime: number) {
-
-    }
 }
 
 
