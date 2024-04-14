@@ -6,15 +6,18 @@ const { ccclass, property } = _decorator;
 export class MainGo extends Component {
 
     
+   add(arr:number[]):number {
+    let res=0;
+    for(let item of arr){
+        res+=item;
+    }
+    return res;
+   }
+
     protected start(): void {
-       function kk(a,b){
-        return a+b;
-       }
-        
-       let  a=3;
-        kk(a,5);
-        a+=1;
-        console.log(a);
+
+        let k=[3,4,5];
+        console.log(this.add(k))
     }
 }
 
