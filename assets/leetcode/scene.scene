@@ -176,7 +176,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 416.45536869340236,
+    "_orthoHeight": 578.6163522012579,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -356,7 +356,7 @@
     "_string": "button",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24.15625,
+    "_actualFontSize": 20,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -634,7 +634,7 @@
     "_id": "143bXz/+5Nr7ZrbFAjedwk"
   },
   {
-    "__type__": "7565aKdfrhG55/Lu2NDNP+l",
+    "__type__": "b2a73tLe95ELb9Qyv0vrUCI",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -643,7 +643,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "d4QFc/+pBMsIBsoBE5drw+"
+    "_id": "2eBXWfuw1BupN0nSFdPbQ5"
   },
   {
     "__type__": "cc.SceneGlobals",
