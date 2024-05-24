@@ -22,6 +22,10 @@ export class Random extends Component {
         let idx= Random.Range(0,n);
         return arr[idx];
     }
+
+    static canHappen(val:number){
+        return Math.random()<val;
+    }
 }
 
 
